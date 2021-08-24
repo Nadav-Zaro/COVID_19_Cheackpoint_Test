@@ -78,3 +78,10 @@ body{
 tbody{
     width: 100%;
 }
+
+@media screen and (max-width: 768px){
+    #table{
+        width: 70vw;
+        margin-left: 10%;
+    }
+}

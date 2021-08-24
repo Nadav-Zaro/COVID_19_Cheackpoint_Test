@@ -32,7 +32,6 @@ button.onclick = () => {
         }
     }
     patientList.push(patient)
-    console.log(patientList);
 
     PatList.innerHTML += `<table class="list1"><tr><td class="td"><p>${patient.first_name}</p></td><td class="td"><p>${patient.last_name}</p></td><td class="td"><p>${patient.birth_year}</p></td>
     <td class="td"><p>${patient.id}</p></td><td class="td"><p>${patient.city}</p></td><td class="td"><p>${patient.currentDate}</p></td></tr></table>`
@@ -77,7 +76,6 @@ function clock() {
             minutes++
         }
         if (seconds < 10) {
-            console.log("ddtgd");
             seconds = "0" + seconds;
         }
         if (minutes == 60) {
