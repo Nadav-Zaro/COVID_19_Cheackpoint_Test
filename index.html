@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="all">
+        <div id="clk"></div>
+        <h1 id="header" style="width: 100%;">COVID-19 Checkpoint</h1>
+        <h4 style="width: 100%;">Due to Safe & Healthy Protocol</h4>
+        <form id="form">
+            <label>First Name:</label>
+            <input type="text" id="firstName" placeholder="enter first name"><br>
+            <label>Last Name:</label>
+            <input type="text" id="lastName" placeholder="enter last name"><br>
+            <label>Birth Year:</label>
+            <input type="number" id="birthYear" placeholder="enter birth year"><br>
+            <label>Id:</label>
+            <input type="number" id="userId" placeholder="enter your id"><br>
+            <label>City:</label>
+            <input type="text" id="city" placeholder="enter city"><br>
+            <label>Search:</label>
+            <input type="text" id="searchInput" placeholder="search by name"><br>
+            <button class="buttn" type="button" id="btn">Add</button>
+            <button class="buttn" type="button" id="btn2">Check</button>
+        </form>
+        <div id="table">
+            <h1 style="width: 100%;">Checking List</h1>
+            <p class="headName">First Name</p>
+            <p class="headName">Last Name</p>
+            <p class="headName">Birth Year</p>
+            <p class="headName">Id</p>
+            <p class="headName">City</p>
+            <p class="headName">Date</p>
+            <div class="PatList1" id="searchedPantient"></div>
+            <div class="PatList1" id="PatList"></div>
+        </div>
+    </div>
+
+    <script src="./main.js" type="text/javascript"></script>
+</body>
+
+</html>
